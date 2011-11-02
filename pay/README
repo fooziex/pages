@@ -21,6 +21,7 @@ CREATE TABLE payu (
         trans_cancel DATETIME,
         trans_ts INT,
         trans_sig CHAR(32),
+	done BOOLEAN DEFAULT 0,
         PRIMARY KEY(trans_id),
         KEY(login)
 ) ENGINE=MyISAM, CHARACTER SET=UTF8;
