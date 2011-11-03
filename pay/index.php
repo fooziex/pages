@@ -1,11 +1,4 @@
 <?php
-
-# Payment redirect
-# Rootnode http://rootnode.net
-#
-# Copyright (C) 2011 Marcin Hlybin
-# All rights reserved.
-
 include("config.inc.php");
 
 if(!isset($_GET['id']) || !preg_match('/^[a-z0-9]+$/',$_GET['id'])) {
@@ -62,9 +55,9 @@ $url = "https://www.platnosci.pl/paygw/UTF/NewPayment"
      . "&session_id="  . $session_id
      . "&amount="      . $user['amount']
      . "&desc="        . $user['login']
-     . "&first_name="  . $user['first_name']
-     . "&last_name="   . $user['last_name']
-     . "&email="       . $user['mail']
+     . "&first_name="  . urlencode($user['first_name'])
+     . "&last_name="   . urlencode($user['last_name'])
+     . "&email="       . urlencode($user['mail'])
      . "&client_ip="   . $client_ip
      . "&language="    . $user['lang']
      . "&ts="          . $ts
