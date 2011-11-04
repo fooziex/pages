@@ -13,7 +13,7 @@ if(!$dbh) {
 mysql_select_db(DB_NAME, $dbh);
 
 $user_query = mysql_query("
-	SELECT id, login, amount, first_name, last_name, mail, lang
+	SELECT id, login, amount, period, first_name, last_name, mail, lang
 	FROM user
 	WHERE id='".mysql_real_escape_string($_GET['id'])."'"
 );
@@ -40,6 +40,7 @@ $sig = md5(PAYU_POS_ID
      . PAYU_POS_AUTH_KEY
      . $user['amount']
      . $user['login']
+     . $user['period']
      . $user['first_name']
      . $user['last_name']
      . $user['mail']
@@ -55,11 +56,12 @@ $url = "https://www.platnosci.pl/paygw/UTF/NewPayment"
      . "&session_id="  . $session_id
      . "&amount="      . $user['amount']
      . "&desc="        . $user['login']
+     . "&desc2="       . $user['period']
      . "&first_name="  . urlencode($user['first_name'])
      . "&last_name="   . urlencode($user['last_name'])
      . "&email="       . urlencode($user['mail'])
-     . "&client_ip="   . $client_ip
      . "&language="    . $user['lang']
+     . "&client_ip="   . $client_ip
      . "&ts="          . $ts
      . "&sig="         . $sig;
 

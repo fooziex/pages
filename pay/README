@@ -14,6 +14,7 @@ CREATE TABLE payu (
         trans_status INT,
         trans_pay_type CHAR(2),
         trans_desc VARCHAR(64),
+        trans_desc2 VARCHAR(16),
         trans_create DATETIME,
         trans_init DATETIME,
         trans_sent DATETIME,
