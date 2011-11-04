@@ -99,7 +99,8 @@ $payment_query = mysql_query("REPLACE INTO payu VALUES('"
 	       . mysql_real_escape_string($response['trans']['recv'])."','"
 	       . mysql_real_escape_string($response['trans']['cancel'])."','"
 	       . mysql_real_escape_string($response['trans']['ts'])."','"
-	       . mysql_real_escape_string($response['trans']['sig'])."')"
+	       . mysql_real_escape_string($response['trans']['sig'])."','"
+               . "0')"
 );
 
 if(!$payment_query) {
