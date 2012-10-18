@@ -19,11 +19,11 @@
 	<h3 id="modules">Available modules</h3>
 	<p>Satan provides the following modules.
 	<ul>
-		<li><a href="/newpage/satan/dns.html">DNS</a> to manage domanis</li>
-		<li><a href="/newpage/satan/mail.html">Mail</a> to manage mail accounts and aliases</li>	
-		<li><a href="/newpage/satan/vhost.html">Vhost</a> to manage web sites / virtual hosts</li>
-		<li><a href="/newpage/satan/mysql.html">MySQL</a> to manage MySQL databases and users</li>
-		<li><a href="/newpage/satan/ftp.html">FTP</a> to manage FTP accounts</li>
+		<li><a href="/satan/dns">DNS</a> to manage domanis</li>
+		<li><a href="/satan/mail">Mail</a> to manage mail accounts and aliases</li>	
+		<li><a href="/satan/vhost">Vhost</a> to manage web sites / virtual hosts</li>
+		<li><a href="/satan/mysql">MySQL</a> to manage MySQL databases and users</li>
+		<li><a href="/satan/ftp">FTP</a> to manage FTP accounts</li>
 	</ul>
 	</p>
 

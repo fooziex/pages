@@ -15,11 +15,11 @@
           </div>
 	<p class="lead">Rootnode is a very unusual shell hosting. Actually, we don't even like to call it <em>hosting</em>. We are social-oriented, we have subversive ideas and we are very eager to make this place unique.</p>
 	<h3>We are social</h3>
-	<p>We love to share knowledge and we like to work together. The most important part of Rootnode is its community. We destroy the scheme of lonely user in front of terminal. There are many other users you can communicate with in old-fashioned way using <a href="/newpage/contact.html#lists">mailing lists</a> and <a href="/newpage/contact.html#irc">IRC channel</a>.
+	<p>We love to share knowledge and we like to work together. The most important part of Rootnode is its community. We destroy the scheme of lonely user in front of terminal. There are many other users you can communicate with in old-fashioned way using <a href="/contact#lists">mailing lists</a> and <a href="/contact#irc">IRC channel</a>.
 	</p>
 	
 	<h3>We do open source</h3>
-	<img style="float:right" width="100px" src="/newpage/vendor/open-source-icon.png"/>
+	<img style="float:right" width="100px" src="/vendor/open-source-icon.png"/>
 	<p>A lot of people think that open source means for <strong>free</strong>. It doesn't. We are not able to offer our services for free because of many expenses. Rootnode has to pay for colocation, server leasing, electricity and bandwidth.</p>
 	<p>As a social hosting, Rootnode decided to go open source by making everything we do, available for free in public git repositories which can be found at <a href="https://github.com/rootnode">https://github.com/rootnode</a>.</p>	
 
@@ -48,7 +48,7 @@
 
 	<h4>No official support</h4>
 	<p>We are system administrators and we don't really have much time. Still, we read e-mails and we will probably answer yours but we cannot guarantee time when it happens.</p>
-	<p>However, there is a good news. We use <a href="/newpage/contact.html#lists">mailing lists</a> which is a really good place to ask for help. Be kind, describe your problem precisely and remember to attach at least following details:
+	<p>However, there is a good news. We use <a href="/contact#lists">mailing lists</a> which is a really good place to ask for help. Be kind, describe your problem precisely and remember to attach at least following details:
 	<ul>
 		<li><strong>uid</strong> and/or username</li>
 		<li><strong>server name</strong>, e.g. <em>web1</em></li>
@@ -61,16 +61,16 @@
                         <h1>From scratch</h1>
                 </div>
         <p class="lead">We take all our experience and start again.</p>
-        <img style="float:right" src="/newpage/img/growth.jpg"/>
+        <img style="float:right" src="/img/growth.jpg"/>
         <p>Rootnode has started in the year 2006. From that time, we have been giving our users a lot of freedom and access to a large number of services. Not only shell hosting but also application hosting, vpn, torrent, shoutcast and more.</p>
         <p>Growing up in uncontrolled way has led us to multiple vulnerabilities and our systems were compromised eventually.</p>
         <p>We decided to start over, rethink and do it from scratch. Needless to say, such process takes a lot of time and tremendous effort. For that reason, <strong>many services are currently unavailable</strong>, and must be redesigned with security in mind.</p>
         <p>Rootnode was entirely colocated in datacenter in Amsterdam, Netherlands. We have invested a lot of money in own hardware. Unfortunately, we decided to power off this location and it is currently unavailable waiting for a huge maintenance and reopen. Right now, we are building new things on dedicated servers colocated in Europe.
         <p>Long story short.
         <ul>
-                <li>We rerun our <a href="/newpage/features.html">services</a> one by one.</li>
-                <li>We use <a href="#">containers</a>, a new virtualization technology to ensure user isolation.</li>
-                <li>We are working on <a href="#">fastweb</a> platform to serve web traffic much faster.</li>
+                <li>We rerun our <a href="/features">services</a> one by one.</li>
+                <li>We use <a href="/container">containers</a>, a new virtualization technology to ensure user isolation.</li>
+                <li>We are working on <a href="/fastweb">fastweb</a> platform to serve web traffic much faster.</li>
                 <li>We will kick ass again.</li>
         </ul>
         </section>

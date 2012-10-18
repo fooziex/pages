@@ -51,7 +51,7 @@ example     /home/tester/web/example.net/htdocs     yes     yes      yes      ye
 	<pre>satan ftp <b>del</b> <span class="change">example</span></pre>
 	<p><span class="label label-warning">Notice</span> FTP account files will NOT be deleted after account removal.</p>
         </section>
-        <section id="ftp">
+        <section id="client">
           <div class="page-header">
             <h1>Client configuration</h1>
           </div>
@@ -64,33 +64,21 @@ example     /home/tester/web/example.net/htdocs     yes     yes      yes      ye
         <div class="span3 bs-docs-sidebar">
             <ul class="nav nav-list bs-docs-sidenav">
                 <li>
-                    <a href="#dns-management">
+                    <a href="#ftp-management">
                         <i class="icon-chevron-left"></i>
-                        DNS management
+                        Managing FTP accounts
                     </a>
                 </li>
                 <li>
-                    <a href="#dns-domain">
+                    <a href="#ftp-account">
                         <i class="icon-chevron-left"></i>
-                        Domain
+                        Account
                     </a>
                 </li>
                 <li>
-                    <a href="#dns-records">
+                    <a href="#client">
                         <i class="icon-chevron-left"></i>
-                        DNS records
-                    </a>
-                </li>
-                <li>
-                    <a href="#rootnode-txt-record">
-                        <i class="icon-chevron-left"></i>
-                        Rootnode TXT record
-                    </a>
-                </li>
-                <li>
-                    <a href="#domain-delegation">
-                        <i class="icon-chevron-left"></i>
-                        Domain delegation
+                        Client configuration
                     </a>
                 </li>
             </ul>

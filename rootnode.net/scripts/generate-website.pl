@@ -15,7 +15,7 @@ use Data::Dumper;
 use Smart::Comments;
 
 Readonly my $SOURCE_DIR => '/home/rootnode/git/pages/rootnode.net';
-Readonly my $DEST_DIR   => '/home/rootnode/web/rootnode.net/htdocs/newpage';
+Readonly my $DEST_DIR   => '/home/rootnode/web/rootnode.net/htdocs/';
 
 -d $SOURCE_DIR or die "\$SOURCE_DIR ($SOURCE_DIR) not found.\n";
 -d $DEST_DIR   or die "\$DEST_DIR ($DEST_DIR) not found.\n";

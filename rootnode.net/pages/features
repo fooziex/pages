@@ -14,16 +14,16 @@
             <h1>Feature matrix</h1>
           </div>
 
-	<p class="lead">We are bulding our services <a href="/newpage/about.html#scratch">from scratch</a>. It takes a hell of a lot of time but we have big plans and we are very eager to get everything back.</p>
-	<p>Currently, our users have only access to <em>Web</em> containers. In the near future we are planning to run the <a href="/newpage/fastweb.html">Fastweb</a> platform in order to take over heavy traffic of the web applications written in Ruby, Python and PHP.</p>
+	<p class="lead">We are bulding our services <a href="/about#scratch">from scratch</a>. It takes a hell of a lot of time but we have big plans and we are very eager to get everything back.</p>
+	<p>Currently, our users have only access to <em>Web</em> containers. In the near future we are planning to run the <a href="/fastweb">Fastweb</a> platform in order to take over heavy traffic of the web applications written in Ruby, Python and PHP.</p>
 
 	<h3 id="basic">Basic services</h3>
 	<table class="table table-hover">
 		<tr><th width="30%">Feature</th><th>Status</th><th width="50%">Comment</th></tr>
-		<tr><td><a href="/newpage/satan/ftp.html">FTP</a></td><td><i class="icon-ok"></i> OK</td><td></td></tr>
-		<tr><td><a href="/newpage/satan/dns.html">DNS</a></td><td><i class="icon-ok"></i> OK</td><td><span class="label label-todo">Todo</span> multiple rootnode.net subdomains</td></tr>
-		<tr><td><a href="/newpage/satan/mail.html">Mail</a></td><td><i class="icon-ok"></i> OK</td><td><span class="label label-todo">Todo</span> rootnode.net domain support</td></tr>
-		<tr><td><a href="/newpage/satan/mysql.html">MySQL</a></td><td><i class="icon-ok"></i> OK</td><td>To be moved to dedicated platform.</td></tr>
+		<tr><td><a href="/satan/ftp">FTP</a></td><td><i class="icon-ok"></i> OK</td><td></td></tr>
+		<tr><td><a href="/satan/dns">DNS</a></td><td><i class="icon-ok"></i> OK</td><td><span class="label label-todo">Todo</span> multiple rootnode.net subdomains</td></tr>
+		<tr><td><a href="/satan/mail">Mail</a></td><td><i class="icon-ok"></i> OK</td><td><span class="label label-todo">Todo</span> rootnode.net domain support</td></tr>
+		<tr><td><a href="/satan/mysql">MySQL</a></td><td><i class="icon-ok"></i> OK</td><td>To be moved to dedicated platform.</td></tr>
 		<tr><td>PostgreSQL</td><td><i class="icon-remove"></i> not working</td><td></td></tr>
 		
 		<tr><td>Backup</a></td><td><i class="icon-remove"></i> partially working</td><td>Backup works but no access to backuped filed for users.</td></tr>
@@ -33,10 +33,10 @@
 	<h3 id="web">Web applications</h3>
 	<table class="table table-hover">
 		<tr><th width="30%">Feature</th><th>Status</th><th width="50%">Comment</th></tr>
-		<tr><td><a href="/newpage/web/ruby.html">Ruby</a></td><td><i class="icon-ok"></i> OK</td><td>To be handled by <a href="/newpage/fastweb.html">Fastweb</a> platform or <em>App</em> type containers. Currently, application can be deployed in <em>Web</em> container.</td>
-		<tr><td>Python</td><td><i class="icon-ok"></i> OK</td><td>To be handled by <a href="/newpage/fastweb.html">Fastweb</a> platform. Currently, application can be deployed in <em>Web</em> container but <strong>no documentation</strong>.</td>
-		<tr><td><a href="/newpage/satan/vhost.html">PHP</a></td><td><i class="icon-ok"></i> OK</td><td></td></tr>
-		<tr><td>HTTPS support</td><td><i class="icon-remove"></i> not working</td><td>To be handled by <a href="/newpage/fastweb.html">Fastweb</a> platform.</td>
+		<tr><td><a href="/web/ruby">Ruby</a></td><td><i class="icon-ok"></i> OK</td><td>To be handled by <a href="/fastweb">Fastweb</a> platform or <em>App</em> type containers. Currently, application can be deployed in <em>Web</em> container.</td>
+		<tr><td>Python</td><td><i class="icon-ok"></i> OK</td><td>To be handled by <a href="/fastweb">Fastweb</a> platform. Currently, application can be deployed in <em>Web</em> container but <strong>no documentation</strong>.</td>
+		<tr><td><a href="/satan/vhost">PHP</a></td><td><i class="icon-ok"></i> OK</td><td></td></tr>
+		<tr><td>HTTPS support</td><td><i class="icon-remove"></i> not working</td><td>To be handled by <a href="/fastweb">Fastweb</a> platform.</td>
 		<tr><td>Rewrite engine</td><td><i class="icon-ok"></i> OK</td><td>Supported either in Apache2 and Nginx <em>(reverse proxy)</em></td></tr>
 		<tr><td><tt>.htaccess</tt> support</td><td><i class="icon-ok"></i> OK</td><td></td></tr>
 	</table>

@@ -6,10 +6,10 @@
     <meta name="keywords" content="shell account, shell, hosting, cheap, best, europe, php, python, ruby, ruby on rails, irc, ssh, torrent, django, pylons, perl, console, java, shoutcast, MySQL, PostgreSQL, redis, memcache, mangodb, backup" />
     <meta name="description" content="Shell account with 50GB drive space,and no transfer limits for 50EUR per year. Ruby on Rails, Python, Perl, PHP, Java, gcc, torrent, shoutcast and more." />
     <title>Rootnode - shell hosting for geeks with Ruby, Python and PHP</title>
-    <link rel="stylesheet" type="text/css" href="/newpage/css/bootstrap.css" media="all">
-    <link rel="stylesheet" type="text/css" href="/newpage/css/bootstrap-responsive.css" media="all">
-    <link rel="stylesheet" type="text/css" href="/newpage/css/font-awesome.css" media="all">
-    <link rel="stylesheet" type="text/css" href="/newpage/css/rootnode.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/css/rootnode.css" media="all">
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -27,13 +27,13 @@
                 <div class="nav-collapse collapse">
                     <ul class="nav">
                         <li class="active">
-                            <a href="/newpage" class="icon-home"></a>
+                            <a href="/" class="icon-home"></a>
                         </li>
                         <li class="">
-                            <a href="/">IRC channel</a>
+                            <a href="/about">About</a>
                         </li>
                         <li class="">
-                            <a href="/newpage/pricing">Pricing</a>
+                            <a href="/pricing">Pricing</a>
                         </li>
                         <li class="dropdown">
                             <a href="#" data-toggle="dropdown">
@@ -42,15 +42,15 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a href="https://webmail.rootnode.net">Webmail</a></li>
-                                <li><a href="https://pma.rootnode.net">PHPMyAdmin</a></li>
-                                <li><a href="/newpage/irc">IRC channel</a></li>
+                                <li><a href="#">PHPMyAdmin</a></li>
+                                <li><a href="/irc">IRC channel</a></li>
                             </ul>
                         </li>
                         <li class="">
-                            <a href="/newpage/contact">Contact us</a>
+                            <a href="/contact">Contact us</a>
                         </li>
                         <li class="signin">
-                            <a href="/newpage/signup">Sign up</a>
+                            <a href="/signup">Sign up</a>
                         </li>
                     </ul>
                 </div>

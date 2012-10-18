@@ -4,26 +4,26 @@
 		<div class="span2">
 		    <h4>Learn the basics</h4>
 		    <ul class="unstyled">
-			<li><a href="/newpage/about.html#rootnode">About</a></li>
-			<li><a href="/newpage/about.html#philosophy">Philosophy</a></li>
-			<li><a href="/newpage/about.html#scratch">From scratch</a></li>
-			<li><a href="/newpage/features.html">Features</a></li>
-			<li><a href="/newpage/contact.html">Contact us</a></li>
+			<li><a href="/about#rootnode">About</a></li>
+			<li><a href="/about#philosophy">Philosophy</a></li>
+			<li><a href="/about#scratch">From scratch</a></li>
+			<li><a href="/features">Features</a></li>
+			<li><a href="/contact">Contact us</a></li>
 		    </ul>
 		</div>
 		<div class="span2">
 		    <h4>Documentation</h4>
 		    <ul class="unstyled">
-			<li><a href="/newpage/quickstart.html">Quickstart</a></li>
-			<li><a href="/newpage/satan/">Satan</a></li>
-			<li><a href="/newpage/web">Web</a></li>
+			<li><a href="/quickstart">Quickstart</a></li>
+			<li><a href="/satan/">Satan</a></li>
+			<li><a href="/web">Web</a></li>
 		    </ul>
 		</div>
 		<div class="span2">
 		    <h4>Internals</h4>
 		    <ul class="unstyled">
-			<li><a href="/newpage/container.html">Container</a></li>
-			<li><a href="/newpage/fastweb.html">Fastweb</a></li>
+			<li><a href="/container">Container</a></li>
+			<li><a href="/fastweb">Fastweb</a></li>
 			<li><a href="http://github.com/rootnode">Github <i class="icon-github"></i></a></li>
 		    </ul>
 		</div>
@@ -31,7 +31,7 @@
 		    <h4>Status pages</h4>
 		    <ul class="unstyled">
 			<li><a href="http://twitter.com/rootnode">Changelog <i class="icon-twitter"></i></a></li>
-			<li><a href="http://rootnodestatus">Rootnode status</a></li>
+			<li><a href="http://rootnodestatus.net">Rootnode status</a></li>
 		    </ul>
 		</div>
 		<div class="span3 promo">
@@ -53,9 +53,10 @@
 	</div>
     </footer>
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <script type="text/javascript" src="/newpage/js/jquery.min.js"></script>
-    <script type="text/javascript" src="/newpage/js/prettify.js"></script>
-    <script type="text/javascript" src="/newpage/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/newpage/js/rootnode.js"></script>
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/prettify.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/rootnode.js"></script>
+    <script type="text/javascript" src="/js/analytics.js"></script>
 </body>
 </html>
