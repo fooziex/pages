@@ -15,7 +15,7 @@ use Data::Dumper;
 use Smart::Comments;
 
 Readonly my $SOURCE_DIR => '/home/rootnode/git/pages/rootnode.net';
-Readonly my $DEST_DIR   => '/home/rootnode/web/rootnode.net/htdocs/';
+Readonly my $DEST_DIR   => '/home/rootnode/web/rootnode.net/htdocs';
 
 -d $SOURCE_DIR or die "\$SOURCE_DIR ($SOURCE_DIR) not found.\n";
 -d $DEST_DIR   or die "\$DEST_DIR ($DEST_DIR) not found.\n";
@@ -30,12 +30,11 @@ foreach my $type (qw(header footer)) {
 # Fetch pages
 my %page;
 my @files = `find $SOURCE_DIR/pages -type f`;
-foreach my $file_name (@files) {
-	chomp $file_name;
-	my $page_name = $file_name;
-	   $page_name =~ s/^\Q$SOURCE_DIR\/pages\/\E//;
-
-	$page{$page_name} = do { local( @ARGV, $/ ) = $file_name; <> };
+foreach my $file_path (@files) {
+	chomp $file_path;
+	my $file_name = $file_path;
+	   $file_name =~ s/^\Q$SOURCE_DIR\/pages\/\E//;
+	$page{$file_name} = do { local( @ARGV, $/ ) = $file_path; <> };
 }
 
 # Generate pages
@@ -53,7 +52,7 @@ foreach my $page_name (keys %page) {
 	my $footer = $inc{footer};
 	
 	# Save file
-	open my $fh, '>', "$DEST_DIR/$page_name.html";
+	open my $fh, '>', "$DEST_DIR/$page_name";
 	print $fh $header, $page{$page_name}, $footer;
 	close $fh;
 }
