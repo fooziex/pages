@@ -653,3 +653,31 @@ ol.linenums li {
     line-height: 18px;
     text-shadow: 0 1px 0 #fff;
 }
+
+/* pay */
+#splitdata, #privateperson, #company {
+    height: 100px;
+    position: relative;
+}
+
+#splitdata {
+    overflow: hidden;
+}
+
+#privateperson, #company {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#company {
+    top: 100px;
+}
+
+.control-group .error-message {
+    display: none;
+}
+
+.control-group.error .error-message {
+    display: inline-block;
+}

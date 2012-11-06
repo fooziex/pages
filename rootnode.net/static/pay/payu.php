@@ -102,8 +102,8 @@ if(!$payment_query) {
 
 # remove user hash
 if($response['trans']['status'] == 99) {
-	$user_query = mysql_query("DELETE FROM users WHERE uid='"
-	            . mysql_real_escape_string($response['trans']['desc'])."'"
+	$user_query = mysql_query("DELETE FROM requests WHERE uid='"
+	            . mysql_real_escape_string(trim($response['trans']['desc']))."'"
 	);
 
 	if(!$user_query) {

@@ -33,6 +33,34 @@
                 }
             }
         }, 100);
+
+        $('#invoice').change(function() {
+            var boxHeight = $('#splitdata').height(),
+                checked = $(this).is(':checked'),
+                topAlign = checked ? -boxHeight : 0;
+            $('#privateperson, #company').show();
+            $('#privateperson').animate({top: topAlign}, function() {
+                $(this).toggle(!checked);
+            });
+            $('#company').animate({top: topAlign + boxHeight}, function() {
+                $(this).toggle(checked);
+            });
+        }).change();
+
+        $('form.validate-me').submit(function(e) {
+            console.log($(this).find('input, textarea, select').closest('.control-group').removeClass('error').end().filter(':visible'));
+            $(this).find('input, textarea, select').closest('.control-group').removeClass('error').end().filter(':visible').each(function() {
+                if($(this).data('required') == 1 && $(this).val() == '') {
+                    $(this).closest('.control-group').addClass('error');
+                }
+		if($(this).data('format') && !$(this).val().match(RegExp($(this).data('format')))) {
+                    $(this).closest('.control-group').addClass('error');
+                }
+            });
+            if($(this).find('.error').size()) {
+                e.preventDefault();
+            }
+        });
     })
 
 }(window.jQuery)
