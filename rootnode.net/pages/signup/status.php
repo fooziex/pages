@@ -1,7 +1,7 @@
 <header id="overview" class="jumbotron subhead">
     <div class="container">
-        <h1>Sign up</h1>
-        <p class="lead"></p>
+        <h1>Sign up!</h1>
+        <p class="lead">Create a new shell account</p>
     </div>
 </header>
 
@@ -11,11 +11,10 @@
 
         <section id="signup">
           <div class="page-header">
-            <h1>Sign up</h1>
+            <h1>Add account</h1>
           </div>
-
-	<p class="lead">We are moving to the new servers.<br/>Sing up should be available on December, 14.</p>
-
+	
+	<p><span class="label label-success">Success</span> Your account will be created in 1 week. Stay tuned!</p>
 	</section>
         </div>
         <div class="span3 bs-docs-sidebar">
@@ -23,7 +22,7 @@
                 <li>
                     <a href="#signup">
                         <i class="icon-chevron-left"></i>
-			Sign up
+			Signup
                     </a>
                 </li>
             </ul>
